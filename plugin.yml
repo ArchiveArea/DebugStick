@@ -1,0 +1,22 @@
+---
+name: DebugStick
+version: 0.0.1
+main: NhanAZ\DebugStick\Main
+api: 5.0.0
+
+website: https://github.com/NhanAZ
+description: "Working with block properties"
+author: NhanAZ
+
+commands:
+  debugstick:
+    description: "Give debug stick to sender"
+    permission: debugstick.command
+permissions:
+  debugstick.command:
+    default: op
+    description: "Allows using /debugstick"
+  debugstick.use:
+    default: op
+    description: "Allows the player to use a bebug stick item"
+...
